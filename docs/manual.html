@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'none'" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>使い方 — 蓮子の眼</title>
+    <meta name="theme-color" content="#000000" />
+    <style>
+      html { background: #000; color: #e8e8e8; -webkit-text-size-adjust: 100%; }
+      body { margin: 0 auto; max-width: 40rem; line-height: 1.85; letter-spacing: 0.03em;
+        font-family: "Iowan Old Style", "Hiragino Mincho ProN", "Yu Mincho", serif;
+        padding: calc(env(safe-area-inset-top) + 1.5rem) 1.4rem calc(env(safe-area-inset-bottom) + 3rem); }
+      h1 { font-size: 1.6rem; font-weight: 500; letter-spacing: 0.15em; margin: 0 0 0.3rem; }
+      h2 { font-size: 1.15rem; font-weight: 500; border-bottom: 1px solid #444; padding-bottom: 0.2rem; margin: 2.2rem 0 0.8rem; }
+      p, li { font-size: 1rem; }
+      ol, ul { padding-left: 1.4rem; }
+      li { margin: 0.35rem 0; }
+      a { color: #9cf; }
+      .lead { color: #aaa; margin-top: 0; }
+      .qr { display: flex; gap: 1.2rem; align-items: center; margin: 1.5rem 0; }
+      .qr img { width: 8.5rem; height: 8.5rem; background: #fff; }
+      .qr p { margin: 0; font-size: 0.9rem; word-break: break-all; }
+      .back { display: inline-block; margin-top: 2.5rem; padding: 0.6rem 2rem; border: 1px solid #e8e8e8; color: #e8e8e8; text-decoration: none; letter-spacing: 0.3em; }
+      .note { color: #aaa; font-size: 0.9rem; }
+      @media print {
+        html { background: #fff; color: #000; }
+        body { max-width: none; padding: 0; }
+        a { color: #000; text-decoration: none; }
+        h2 { border-color: #888; break-after: avoid; }
+        .lead, .note { color: #444; }
+        .back { display: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>蓮子の眼</h1>
+    <p class="lead">宇佐見蓮子の「星を見ただけで今の時間が分かり、月を見ただけで今居る場所が分かる程度の能力」を体験するアプリ（試用版）</p>
+
+    <div class="qr">
+      <img src="./qr.svg" alt="アプリの QR コード" />
+      <p>スマホのカメラで読み取って開く<br /><a href="./">https://kyoto-shirayui.github.io/renko-eyes/</a></p>
+    </div>
+
+    <h2>開き方</h2>
+    <ol>
+      <li>QR コードを読み取り，iPhone は Safari，Android は Chrome で開く</li>
+      <li>ホーム画面に追加すると，アプリのように全画面で開ける
+        <ul>
+          <li>iPhone：共有ボタン →「ホーム画面に追加」</li>
+          <li>Android：右上のメニュー →「ホーム画面に追加」</li>
+        </ul>
+      </li>
+      <li>一度最後まで開くと，アプリが端末に保存され，通信が無くても動く</li>
+    </ol>
+
+    <h2>はじめに</h2>
+    <ol>
+      <li>iPhone は「タップで開始」をタップし，動作と方向へのアクセスを「許可」する（スマホの向きで空を見回すため）</li>
+      <li>「この能力はJST専用です」と出たら「OK」</li>
+      <li>起動の演出が流れる．ダブルタップで飛ばせる</li>
+    </ol>
+
+    <h2>遊び方</h2>
+    <ol>
+      <li><b>星空を眺める</b>：スマホを空にかざし，体ごと向きを変えて見回す．航海星・惑星をタップすると名前が出る</li>
+      <li><b>月の高度を測る</b>：月をタップすると，地平線から月を通る目盛りの線が出る．吹き出しを指で月まで動かす</li>
+      <li><b>星の高度を測る</b>：好きな明るい星をタップし，月と同じく吹き出しを星まで動かす</li>
+      <li><b>月距を測る</b>：選んだ星から指をなぞり始め，そのまま月まで動かす</li>
+      <li><b>経度を計算する</b>：天球が回り，緯度と経度が定まってゆく．ダブルタップで飛ばせる</li>
+      <li>星空に戻る．何度でも繰り返せる</li>
+    </ol>
+    <p class="note">画面の空は 2036 年 11 月 9 日 2 時 25 分（日本時間）の京都の空で，いま実際に見えている空とは違う．スマホの向きのセンサが無い端末（パソコンなど）では，指やマウスで画面をなぞって見回す</p>
+
+    <h2>動かない時</h2>
+    <ul>
+      <li>向きを変えても空が動かない（iPhone）：許可を拒否した時は，Safari のタブを閉じてもう一度開き，「許可」を選ぶ</li>
+      <li>開けない：初めて開く時だけ通信が要る．電波の良い所でもう一度開く</li>
+      <li>表示が乱れる：アプリ（またはブラウザのタブ）を閉じて開き直す</li>
+    </ul>
+
+    <h2>プライバシー</h2>
+    <ul>
+      <li>使うのはスマホの向きだけで，位置情報・カメラ・マイクは使わない</li>
+      <li>何も送信せず，利用状況の解析も Cookie も使わない</li>
+      <li>端末に保存するのはアプリ本体のファイルだけ</li>
+    </ul>
+
+    <h2>出典</h2>
+    <p>使用したデータ・書体・ライブラリ・参考文献は <a href="./credits.html">出典</a> に記す</p>
+
+    <a class="back" href="./">アプリへ</a>
+  </body>
+</html>
