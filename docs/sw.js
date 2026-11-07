@@ -1,4 +1,4 @@
-const VERSION = "fc324bb71727";
+const VERSION = "9e6376cff19a";
 const FILES = [
   "./",
   "./LICENSES.txt",
