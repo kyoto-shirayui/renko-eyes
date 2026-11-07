@@ -1,4 +1,4 @@
-const VERSION = "4102059e7f73";
+const VERSION = "8700e43a13b3";
 const FILES = [
   "./",
   "./LICENSES.txt",
@@ -6,8 +6,8 @@ const FILES = [
   "./assets/fig-lunar-triangle-Dn-mSGRv.png",
   "./assets/fig-nav-triangle-Dj4HNj9k.png",
   "./assets/horizontal-parallax-D6Qp5dy1.png",
+  "./assets/index-C7iZbFij.js",
   "./assets/index-CeU6thIi.css",
-  "./assets/index-DAMPjwUA.js",
   "./assets/ld-angle-BMwVulJM.png",
   "./assets/ld-cleared-DX1ECyeE.png",
   "./assets/ld-correction-CshbENxU.png",
