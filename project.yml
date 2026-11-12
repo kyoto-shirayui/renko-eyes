@@ -4,12 +4,12 @@ title: 宇佐見蓮子の眼を体験するアプリ（公開版）
 summary: GitHub Pages で配信する「蓮子の眼」のビルド結果．
 priority: medium
 status: active
-started: 2026-11-06
+started: 2026-11-12
 deadline:
   initial:
   current:
-next: 初回の公開と GitHub Pages の有効化
+next: renko-eyes-app のアプデ開発
 from:
   topics: []
   projects: [renko-eyes-app]
-updated: 2026-11-06
+updated: 2026-11-12
